@@ -4,9 +4,9 @@
 
 - This plugin extends Piklist by creating a simple framework for adding additional field types to Piklist.
 
-### Sample Usage
+## Sample Usage
 
-## Adding a [Select2][2] style select box
+### Adding a [Select2][2] style select box
 
     piklist(‘field’, array(
 		‘type’ => ‘select2′
@@ -26,15 +26,15 @@
 		)
 	));
 
-## More field types to come
+### More field types to come
 
-## [Fork me][3] to add more field types
+### [Fork me][3] to add more field types
 
-## Copyright
+### Copyright
 
 Copyright 2013 Adam Anderly
 
-## License
+### License
 
 GPLv2
 
