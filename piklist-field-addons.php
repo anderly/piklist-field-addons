@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Piklist Field Addons
-Plugin URI: 
+Plugin URI:
 Version: v0.1
 Author: Adam Anderly
 Plugin Type: Piklist
@@ -25,13 +25,13 @@ Plugin Type: Piklist
 // -------------------------------------------------------------------------
 // Prevent direct access to this file
 // -------------------------------------------------------------------------
-if ( ! function_exists ( 'add_action' ) ) :
+if ( ! function_exists( 'add_action' ) ) {
 	header( 'Status: 403 Forbidden' );
 	header( 'HTTP/1.1 403 Forbidden' );
 	exit();
-endif;
+}
 
-if ( !defined('ABSPATH') ) {
+if ( !defined( 'ABSPATH' ) ) {
 	exit;
 }
 
@@ -43,5 +43,5 @@ if ( !class_exists( 'Piklist_Field_Addons' ) ) {
 
 	Piklist_Field_Addons::load();
 }
-  
+
 ?>
