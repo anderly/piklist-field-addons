@@ -28,7 +28,7 @@
 
 ### More field types to come
 
-### [Fork me][3] to add more field types
+[Fork me][3] to add more field types
 
 ### Copyright
 
